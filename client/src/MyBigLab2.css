@@ -1,0 +1,37 @@
+
+
+.put-down {
+    padding-top: 4rem;
+  }
+  
+
+
+  .round-login{ border-radius: 10px 10px 10px 10px; }
+
+  body, html {
+    height: 100%;
+  }
+  
+.bgimage{
+    /* The image used */
+    background-image: url('./wall.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+.rightForm{
+    
+  position: fixed;
+  right: 3rem;
+  top: 3rem;
+    margin:0 auto;
+  }
+
+
+.alert-fix{
+  margin-bottom: 0rem;
+}
+  

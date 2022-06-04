@@ -1,0 +1,67 @@
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+.favorite-f {
+  color: red;
+}
+.standard{
+  color: black;
+}
+.grey{
+  color:grey
+}
+
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+.mousepoint {
+  cursor: pointer;
+}
+
+.filter {
+  font-family: "Enriqueta", arial, serif;
+  line-height: 1.25;
+  margin: 0 0 10px;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.formstyle{
+  padding-top: 35px;
+}
+
+.formtext{
+  text-align: center;
+}
+
+
+.bordi-rounded{ border-radius: 10px 10px 10px 10px; }
+
+/*Link non sottolineati*/
+a {
+  text-decoration: none;
+}
+
+.centerForm{
+  align-items: 'center';
+  margin:0 auto;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+
+

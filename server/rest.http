@@ -1,0 +1,37 @@
+POST http://localhost:3001/api/films HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Kill Bill Vol2",
+    "favorite" : 1,
+    "watchdate": "2022-04-13",
+    "rating": 4
+}
+
+####
+
+PUT http://localhost:3001/api/film/6 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Kung Fu PANDA",
+    "favorite" : 0,
+    "watchdate": "2022-04-19",
+    "rating": 2
+}
+
+#####
+
+
+PUT http://localhost:3001/api/film/6/fav HTTP/1.1
+content-type: application/json
+
+{
+    "favorite" : 1
+}
+
+######
+
+DELETE http://localhost:3001/api/film/5/ HTTP/1.1
+content-type: application/json
+
